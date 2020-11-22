@@ -10,6 +10,7 @@
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "linux_x64" ],
+      "remoteMachineName": "${defaultRemoteMachineName}",
       "remoteCMakeListsRoot": "/root/GzxFanControl/",
       "remoteBuildRoot": "/root/GzxFanControl/build/",
       "remoteInstallRoot": "/root/GzxFanControl/install",
@@ -18,7 +19,8 @@
       "remoteCopyBuildOutput": true,
       "remoteCopySourcesMethod": "rsync",
       "addressSanitizerRuntimeFlags": "detect_leaks=0",
-      "variables": []
+      "variables": [],
+      "intelliSenseMode": "linux-gcc-x64"
     },
     {
       "name": "x64-Release",
@@ -30,6 +32,7 @@
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "linux_x64" ],
+      "remoteMachineName": "${defaultRemoteMachineName}",
       "remoteCMakeListsRoot": "/root/GzxFanControl/",
       "remoteBuildRoot": "/root/GzxFanControl/build/",
       "remoteInstallRoot": "/root/GzxFanControl/install",
@@ -38,7 +41,8 @@
       "remoteCopyBuildOutput": true,
       "remoteCopySourcesMethod": "rsync",
       "addressSanitizerRuntimeFlags": "detect_leaks=0",
-      "variables": []
+      "variables": [],
+      "intelliSenseMode": "linux-gcc-x64"
     }
   ]
 }
